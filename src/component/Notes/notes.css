@@ -1,0 +1,52 @@
+.notes {
+  padding-top: 250px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100vh;
+}
+.notes .notes-container {
+  background-color: rgb(17, 122, 148);
+  width: 200px;
+  margin: 10px;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  /* padding: 10px; */
+  width: 100%;
+}
+.notes .notes-container div {
+  padding: 12px;
+}
+.noteH {
+  background-color: rgb(15, 75, 75);
+  width: 100%;
+  /* padding: 40px; */
+  height: 40px;
+}
+.tech {
+  color: rgb(29, 220, 226);
+}
+* {
+  box-sizing: border-box;
+  /* margin: 0%;
+    padding: 0%; */
+}
+@media screen and (max-width: 400px) {
+  .notes {
+    padding-top: 8rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .notes {
+    padding-top: 18rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .notes {
+    padding-top: 25rem;
+  }
+}

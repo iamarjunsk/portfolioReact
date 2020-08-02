@@ -1,0 +1,14 @@
+.admin{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.admin div{
+    display: flex;
+    flex-direction: column;
+}
+.admin div input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

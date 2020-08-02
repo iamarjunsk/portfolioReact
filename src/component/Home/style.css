@@ -1,0 +1,80 @@
+.main {
+  background-image: url("./Software\ Engineers\ Vector.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .title-cont {
+  /* margin-top: 2%; */
+  background-color: #09615ce5;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Rajdhani", sans-serif;
+  /* margin-bottom: -2%; */
+}
+.main div h1 {
+  color: #d9dce9;
+  font-size: 4rem;
+  width: 100%;
+  padding: 4%;
+  animation: title 3s;
+}
+@keyframes title {
+  from {
+    color: #d9dce907;
+    /* display: none; */
+    /* color: #000; */
+  }
+  to {
+    color: #d9dce9;
+    /* display: block; */
+    /* color: #fff; */
+  }
+}
+.main div h1 .home-profile-link {
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 6px;
+  color: rgb(26, 146, 140);
+  animation-name: link-an;
+  animation-duration: 2s;
+  animation-delay: 2s;
+}
+@keyframes link-an {
+  from {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  to {
+    background-color: #fff;
+  }
+}
+.main div div {
+  display: flex;
+  justify-content: space-around;
+}
+.main div div img {
+  width: 76px;
+  height: 66px;
+  margin: 3%;
+}
+
+@media screen and (max-width: 530px) {
+  .main .title-cont {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main div h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,77 @@
+.about{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: auto;
+}
+.ab-title{
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.ab-title img{
+    height: 160px;
+    width: 160px;
+    border-radius: 4%;
+}
+.ab-me{
+    background-color: cadetblue;
+    box-sizing: border-box      ;
+}
+/* @media screen and (max-width:457px){ */
+    /* .about{
+        display: flex;
+        flex-direction: column ;
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    div.ab-title{
+        width: 457px;
+    }
+
+} */
+
+@media screen and (max-width:572px){
+    .about{
+        /* overflow: hidden; */
+        display: flex;
+        flex-direction: column ;
+        /* height: 100vh;
+        width: 100vw; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .about .ab-title div{
+        width: 360px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        /* padding: 10px; */
+        /* overflow: hidden; */
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    div.ab-title{
+        width: 100%;
+        padding-top: 70px;
+        height: auto;
+    }
+    div.ab-me{
+        width: 100%;
+    }
+    .ab-title img{
+        width: 120px;
+        height: 120px;
+        margin-left: 12px;
+    }
+    .ab-title div h2{
+        font-size: 21px;
+        margin-left: 12px;
+
+    }
+}  
